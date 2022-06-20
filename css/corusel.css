@@ -1,0 +1,94 @@
+
+
+.container {
+ background-color: #171a29;
+ width: 100%;
+}
+.carousel {
+  background: #171a29;
+  padding-top: 25px;
+  width: 86%;
+  height: 19em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+  left:3%;
+  right: 3%;
+  padding: 35PX;
+  transition: transform 0.5s;
+}
+.slider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: scale 0.5s;
+  position: relative;
+  text-align: center;
+  color: aqua;
+
+}
+
+
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16em;
+  height: 16em;
+  margin: 1em 1.2em;
+}
+.controls button.next {
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  background-color: rgb(224, 211, 211);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: black;
+  padding: 0.2em;
+}
+.controls button.prev {
+  position: absolute;
+  left: 5%;
+  top: 35%;
+  font-size: medium;
+  background-color: rgb(239, 232, 232);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  padding: 0.2em;
+
+}
+
+
+.controls button.prev i:hover{
+  position: relative;
+  right: 5px;
+}
+
+.controls button.next i:hover{
+  position: relative;
+  left: 3px;
+}
+
+.controls button i {
+  font-size: 38px;
+  padding: 5px;
+  transition: ease 0.5ms;
+}
+
+
+
+div.slider img:hover{
+  transform: scale(105%, 105%);
+} 
+
+
